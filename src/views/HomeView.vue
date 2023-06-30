@@ -1,21 +1,19 @@
 <template>
   <div class="home">
     <div class="feature-card">
-      <router-link to="/movie/tt0409591">
-        <img
-          src="https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="The Dark Knight"
-          class="feature-img"
-        />
-        <div class="detail">
-          <h3>Naruto</h3>
-          <p>
-            Naruto is an anime series based on Masashi Kishimoto's manga series
-            and published by Shueisha. It is the story of Naruto Uzumaki, a
-            young ninja who seeks to gain recognition from his peers.
-          </p>
-        </div>
-      </router-link>
+      <img
+        src="https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="The Dark Knight"
+        class="feature-img"
+      />
+      <div class="detail">
+        <h3>Naruto</h3>
+        <p>
+          Naruto is an anime series based on Masashi Kishimoto's manga series
+          and published by Shueisha. It is the story of Naruto Uzumaki, a young
+          ninja who seeks to gain recognition from his peers.
+        </p>
+      </div>
     </div>
     <form @submit.prevent="SearchMovies()" class="search-box">
       <input
