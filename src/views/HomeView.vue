@@ -48,7 +48,7 @@ export default defineComponent({
     const SearchMovies = () => {
       if (searchQuery.value != "") {
         fetch(
-          `http://www.omdbapi.com?apikey=${process.env.VUE_APP_API_KEY}&s=${searchQuery.value}`
+          `https://www.omdbapi.com?apikey=${process.env.VUE_APP_API_KEY}&s=${searchQuery.value}`
         )
           .then((res) => res.json())
           .then((data) => {
