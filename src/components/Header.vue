@@ -16,7 +16,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 10px 16px;
-  background-color: #2ced4e;
+  background-color: #2c3d4e;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
 
   h1 {
