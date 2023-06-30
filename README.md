@@ -1,4 +1,4 @@
-# movie-app
+# movie-app (Vue, Scss, Typescript)
 
 ## Project setup
 ```
