@@ -26,7 +26,7 @@ export default defineComponent({
 
     onBeforeMount(() => {
       fetch(
-        `http://www.omdbapi.com?apikey=${process.env.VUE_APP_API_KEY}&i=${route.params.id}&plot=full`
+        `https://www.omdbapi.com?apikey=${process.env.VUE_APP_API_KEY}&i=${route.params.id}&plot=full`
       )
         .then((res) => res.json())
         .then((data) => {
